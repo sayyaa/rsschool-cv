@@ -8,48 +8,85 @@
     <title>CV#2. HTML, CSS & Git Basics</title>
   </head>
   <body>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEPPiaQhO0spbCu9tuFuG3QsKNOjMuplRr2A&usqp=CAU" alt="my avatar" width="500" height="500">
-    <h1>Mosin Dmitry</h1>
-    <p>beginner frontend developer</p>
-    <section>
-      <h2>Contacts:</h2>
-      <ul>
-        <li><a href="https://github.com/sayyaa">GitHub</a></li>
-        <li>Discord: @sayya</li>
-      </ul>
-      <section>
+    <div class="container">
+    <header class="header">
+      <nav class="navigation">
+        <ul class="header-menu">
+          <!-- <li class="header-menu-item"><a href="#">Contacts</a></li> -->
+          <li class="header-menu-item"><a href="#">About me</a></li>
+          <!-- <li class="header-menu-item"><a href="#">Skills</a></li> -->
+          <li class="header-menu-item"><a href="#">Code Example</a></li>
+          <li class="header-menu-item"><a href="#">Courses</a></li>
+          <li class="header-menu-item"><a href="#">Languages</a></li>
+          <li class="header-menu-item"><a href="#">Portfolio</a></li>
+        </ul>
+      </nav>
+
+
+ 
+      <div class="header-wrapper">
+
+   
+    <section class="profile">
+      <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEPPiaQhO0spbCu9tuFuG3QsKNOjMuplRr2A&usqp=CAU" alt="my avatar" width="250" height="250">
+      <h2>Mosin Dmitry</h2>
+      <p>beginner frontend developer</p>
+    </section>
+
+      <section class="contacts">
+        <h2 class="visually-hidden">Contacts</h2>
+        <ul>
+          <li>GitHub: <a href="https://github.com/sayyaa">sayyaa</a></li>
+          <li>Discord: @sayya</li>
+        </ul>
+      </section>
+  
+        <section class="skills">
+          <h2 class="visually-hidden">Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS Basic</li>
+            <li>JS beginner</li>
+          </ul>
+        </section>
+      </div>
+    </header>
+      <main class="main">
+             <!-- <h1>загаловок</h1> -->
+      <section class="about">
         <h2>About me:</h2>
         <p>
           I'm 26 years old. i finished the Orenburg State University as
           engineer-electric. Now i wanna take a new education in IT.
         </p>
       </section>
-      <section>
-        <h2>Skills:</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS Basic</li>
-          <li>JS beginner</li>
-        </ul>
-      </section>
-      <section>
-        <h2>Code Example:</h2>
-        <pre><code>function noSpace(x){
-    return x.replace(/\s/g, '')
-}</code></pre>
-      </section>
-      <section>
-        <h2>Courses:</h2>
-        <ul>
-            <li>Student JS/FE Pre-School 2022</li>
-        </ul>
-      </section>
-      <section>
-        <h2>Languages:</h2>
-        <ul>
-            <li> Russian: native speaker</li>
-            <li>English: A1+</li>
-        </ul>
-      </section>
+        <section>
+          <h2>Code Example:</h2>
+          <pre><code>function noSpace(x){
+      return x.replace(/\s/g, '')
+  }</code></pre>
+        </section>
+        <section>
+          <h2>Courses:</h2>
+          <ul>
+              <li>Student JS/FE Pre-School 2022</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Languages:</h2>
+          <ul>
+              <li> Russian: native speaker</li>
+              <li>English: A1+</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Portfolio</h2>
+
+        </section>
+    </main>
+    <header class="header">
+
+    </header>
+    </div>
   </body>
 </html>
