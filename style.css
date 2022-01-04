@@ -1,1 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+body {
+    background-color: aquamarine; /**/
+   
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: aqua; /**/
+}
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+/* HEADER */
 
+.header-menu {
+    margin: 0 auto;
+    max-width: 700px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+ 
+    justify-content: space-between;
+    margin-bottom: 20px;
+ 
+}
+.header-wrapper {
+    position: relative;
+    margin-bottom: 30px;
+}
+.image {
+    margin-bottom: 10px;
+}
+.profile {
+    margin-left: 100px;
+}
+.profile h2 {
+    max-width: 250px;
+    text-align: center;
+}
+.profile p {
+    max-width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contacts {
+    position: absolute;
+    top: 85px;
+    left: 500px;
+    text-align: center;
+}
+.contacts h2 {
+    margin-bottom: 10px;
+}
+.contacts ul {
+    font-size: 25px;
+}
+.skills {
+    position: absolute;
+    top: 75px;
+    left: 900px;
+    text-align: center;
+}
+.skills h2 {
+    margin-bottom: 10px;
+}
+.skills ul {
+    font-size: 25px;
+}
+/* MAIN */
+.about {
+    text-align: center;
+}
