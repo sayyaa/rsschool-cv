@@ -11,37 +11,49 @@ ul {
     list-style: none;
 }
 body {
-    background-color: aquamarine; /**/
+    background: #B2F2B7;
+background: -webkit-linear-gradient(top left, #B2F2B7, #497B4B);
+background: -moz-linear-gradient(top left, #B2F2B7, #497B4B);
+background: linear-gradient(to bottom right, #B2F2B7, #497B4B);
    
 }
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: aqua; /**/
+    background-color: bisque;   
+
 }
+
 .visually-hidden {
     position: absolute;
     clip: rect(0 0 0 0);
     width: 1px;
     height: 1px;
     margin: -1px;
-  }
-/* HEADER */
+}
 
+/* HEADER */
+.header {
+   
+}
+.header-color {
+    background-color: tomato;
+}
 .header-menu {
     margin: 0 auto;
     max-width: 700px;
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
- 
+    
     justify-content: space-between;
     margin-bottom: 20px;
  
 }
 .header-wrapper {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    
 }
 .image {
     margin-bottom: 10px;
@@ -84,5 +96,70 @@ body {
 }
 /* MAIN */
 .about {
+    font-size: 20px;
     text-align: center;
+    margin-bottom: 40px;
+}
+.wrapper-info {
+
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.code {
+
+}
+.code h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.courses {
+    text-align: center;
+}
+.courses h2 {
+  
+    margin-bottom: 20px;
+}
+.languages {
+    text-align: center;
+}
+.languages h2{
+  
+    margin-bottom: 10px;
+}
+.portfolio {
+    padding-bottom: 40px;
+}
+.portfolio h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.portfolio-img {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+ 
+}
+
+/* FOOTER */
+.footer {
+   background-color: tomato;
+ 
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+}
+.links p {
+    font-size: 25px;
+}
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: tomato
+
 }

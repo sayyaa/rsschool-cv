@@ -4,89 +4,116 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css" />
     <title>CV#2. HTML, CSS & Git Basics</title>
   </head>
   <body>
     <div class="container">
-    <header class="header">
-      <nav class="navigation">
-        <ul class="header-menu">
-          <!-- <li class="header-menu-item"><a href="#">Contacts</a></li> -->
-          <li class="header-menu-item"><a href="#">About me</a></li>
-          <!-- <li class="header-menu-item"><a href="#">Skills</a></li> -->
-          <li class="header-menu-item"><a href="#">Code Example</a></li>
-          <li class="header-menu-item"><a href="#">Courses</a></li>
-          <li class="header-menu-item"><a href="#">Languages</a></li>
-          <li class="header-menu-item"><a href="#">Portfolio</a></li>
-        </ul>
-      </nav>
-
-
- 
-      <div class="header-wrapper">
-
-   
-    <section class="profile">
-      <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEPPiaQhO0spbCu9tuFuG3QsKNOjMuplRr2A&usqp=CAU" alt="my avatar" width="250" height="250">
-      <h2>Mosin Dmitry</h2>
-      <p>beginner frontend developer</p>
-    </section>
-
-      <section class="contacts">
-        <h2 class="visually-hidden">Contacts</h2>
-        <ul>
-          <li>GitHub: <a href="https://github.com/sayyaa">sayyaa</a></li>
-          <li>Discord: @sayya</li>
-        </ul>
-      </section>
-  
-        <section class="skills">
-          <h2 class="visually-hidden">Skills</h2>
-          <ul>
-            <li>HTML</li>
-            <li>CSS Basic</li>
-            <li>JS beginner</li>
+      <header class="header">
+        <div class="header-color">
+        <nav class="navigation">
+          <ul class="header-menu">
+            <!-- <li class="header-menu-item"><a href="#">Contacts</a></li> -->
+            <li class="header-menu-item"><a href="#">About me</a></li>
+            <!-- <li class="header-menu-item"><a href="#">Skills</a></li> -->
+            <li class="header-menu-item"><a href="#">Code Example</a></li>
+            <li class="header-menu-item"><a href="#">Courses</a></li>
+            <li class="header-menu-item"><a href="#">Languages</a></li>
+            <li class="header-menu-item"><a href="#">My Works</a></li>
           </ul>
-        </section>
-      </div>
-    </header>
+        </nav>
+        </div>
+        <div class="header-wrapper">
+          <section class="profile">
+            <img
+              class="image"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEPPiaQhO0spbCu9tuFuG3QsKNOjMuplRr2A&usqp=CAU"
+              alt="my avatar"
+              width="250"
+              height="250"
+            />
+            <h2>Mosin Dmitry</h2>
+            <p>beginner frontend developer</p>
+          </section>
+
+          <section class="contacts">
+            <h2 class="visually-hidden">Contacts</h2>
+            <ul>
+              <li>GitHub: <a href="https://github.com/sayyaa">sayyaa</a></li>
+              <li>Discord: @sayya</li>
+            </ul>
+          </section>
+
+          <section class="skills">
+            <h2 class="visually-hidden">Skills</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS Basic</li>
+              <li>JS beginner</li>
+            </ul>
+          </section>
+        </div>
+      </header>
       <main class="main">
-             <!-- <h1>загаловок</h1> -->
-      <section class="about">
-        <h2>About me:</h2>
-        <p>
-          I'm 26 years old. i finished the Orenburg State University as
-          engineer-electric. Now i wanna take a new education in IT.
-        </p>
-      </section>
-        <section>
-          <h2>Code Example:</h2>
-          <pre><code>function noSpace(x){
+        <!-- <h1>загаловок</h1> -->
+        <section class="about">
+          <h2 class="visually-hidden">About me:</h2>
+          <p>
+            I'm 26 years old. I finished the Orenburg State University as
+            engineer-electric. Now i wanna take a new education in IT.
+          </p>
+        </section>
+        <div class="wrapper-info">
+          <section class="code">
+            <h2>Code Example</h2>
+            <pre><code>function noSpace(x){
       return x.replace(/\s/g, '')
   }</code></pre>
-        </section>
-        <section>
-          <h2>Courses:</h2>
-          <ul>
+          </section>
+          <section class="courses">
+            <h2>Courses</h2>
+            <ul>
               <li>Student JS/FE Pre-School 2022</li>
-          </ul>
-        </section>
-        <section>
-          <h2>Languages:</h2>
-          <ul>
-              <li> Russian: native speaker</li>
+            </ul>
+          </section>
+          <section class="languages">
+            <h2>Languages</h2>
+            <ul>
+              <li>Russian: native speaker</li>
               <li>English: A1+</li>
-          </ul>
+            </ul>
+          </section>
+        </div>
+        <section class="portfolio">
+          <h2>My Works</h2>
+          <a href="https://sayyaa.github.io/rock-paper-scissors/"
+            ><img
+              class="portfolio-img"
+              src="https://i.ibb.co/6WNQzfy/rps-demo-image.png"
+              alt="rock-paper-scissors game site"
+              width="300px"
+              height="150px"
+          /></a>
         </section>
-        <section>
-          <h2>Portfolio</h2>
-
-        </section>
-    </main>
-    <header class="header">
-
-    </header>
+      </main>
     </div>
+
+    <footer class="footer">
+      <div class="container-footer">
+        <section class="links">
+          <a href="https://rs.school/js/"
+            ><img
+              src="https://rs.school/images/rs_school_js.svg"
+              alt="RSSchool logo"
+              width="100"
+              height="100"
+          /></a>
+          <p class="year">2022</p>
+          <a href="https://github.com/sayyaa"
+            ><img src="/GitHub-Mark-64px.png" alt="sayyaa profile github link"
+          /></a>
+        </section>
+      </div>
+    </footer>
   </body>
 </html>
