@@ -11,16 +11,17 @@ ul {
     list-style: none;
 }
 body {
-    background: #B2F2B7;
-background: -webkit-linear-gradient(top left, #B2F2B7, #497B4B);
-background: -moz-linear-gradient(top left, #B2F2B7, #497B4B);
-background: linear-gradient(to bottom right, #B2F2B7, #497B4B);
-   
+    background: #4D4A4A;
+    background: -webkit-linear-gradient(top left, #4D4A4A, #B3B2A8);
+    background: -moz-linear-gradient(top left, #4D4A4A, #B3B2A8);
+    background: linear-gradient(to bottom right, #4D4A4A, #B3B2A8);
+    background-repeat: no-repeat;
 }
 .container {
     max-width: 1200px;
     margin: 0 auto;
     background-color: bisque;   
+    
 
 }
 
@@ -33,11 +34,12 @@ background: linear-gradient(to bottom right, #B2F2B7, #497B4B);
 }
 
 /* HEADER */
-.header {
-   
-}
+
 .header-color {
-    background-color: tomato;
+    background: #4D4A4A;
+    background: -webkit-linear-gradient(top left, #4D4A4A, #B3B2A8);
+    background: -moz-linear-gradient(top left, #4D4A4A, #B3B2A8);
+    background: linear-gradient(to bottom right, #4D4A4A, #B3B2A8);
 }
 .header-menu {
     margin: 0 auto;
@@ -45,7 +47,6 @@ background: linear-gradient(to bottom right, #B2F2B7, #497B4B);
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
-    
     justify-content: space-between;
     margin-bottom: 20px;
  
@@ -94,22 +95,20 @@ background: linear-gradient(to bottom right, #B2F2B7, #497B4B);
 .skills ul {
     font-size: 25px;
 }
+
 /* MAIN */
+
 .about {
     font-size: 20px;
     text-align: center;
     margin-bottom: 40px;
 }
 .wrapper-info {
-
     display: flex;
     margin-left: 100px;
     margin-right: 100px;
     justify-content: space-evenly;
     margin-bottom: 30px;
-}
-.code {
-
 }
 .code h2 {
     text-align: center;
@@ -144,10 +143,7 @@ background: linear-gradient(to bottom right, #B2F2B7, #497B4B);
 }
 
 /* FOOTER */
-.footer {
-   background-color: tomato;
- 
-}
+
 .links {
     display: flex;
     justify-content: space-around;
@@ -160,6 +156,8 @@ background: linear-gradient(to bottom right, #B2F2B7, #497B4B);
 .container-footer {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: tomato
-
+    background: #4D4A4A;
+    background: -webkit-linear-gradient(top left, #4D4A4A, #B3B2A8);
+    background: -moz-linear-gradient(top left, #4D4A4A, #B3B2A8);
+    background: linear-gradient(to bottom right, #4D4A4A, #B3B2A8);
 }
